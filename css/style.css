@@ -93,9 +93,9 @@ body{
   line-height: 0.4em;
 }
 
-/* .about span:hover{
-  color: whitesmoke;
-} */
+.about span:hover{
+  color: black;
+}
 
 .about h6{
   font-size: 1.5em;
@@ -333,6 +333,25 @@ body{
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
+  .about h4{
+    font-size: 1.8em;
+    font-weight: 200;
+    line-height: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .about h6{
+    font-size: 1.2em;
+    font-weight: 120;
+    margin-bottom: 20px;
+  }
+  
+  .about p{
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+  }
 }
 
 /*Mobile*/
@@ -343,12 +362,24 @@ body{
           'about'
   }
 
-  .features{
-    margin-left: 0;
+  .about h4{
+    font-size: 1.8em;
+    font-weight: 200;
+    line-height: 1.2em;
+    margin-bottom: 20px;
   }
-
-  .feature-1{
-    margin-top: 20px;
+  
+  .about h6{
+    font-size: 1em;
+    font-weight: 120;
+    margin-bottom: 20px;
+  }
+  
+  .about p{
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 1.3em;
+    margin-bottom: 30px;
   }
 }
 /* End Responsive */
